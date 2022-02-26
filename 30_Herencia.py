@@ -1,7 +1,7 @@
 #Herencia simple
 #Cuando una clase hija hereda los atributos y metodos de una unica clase padre
 
-class Estudiante(object):
+class Estudiante():
     def __init__(self,edad,nombre):  #la clase con el metodo constructor es la PADRE
         self.edad=edad
         self.nombre=nombre
@@ -9,6 +9,7 @@ class Estudiante(object):
 class Derecho(Estudiante):     #Clase secundaria con la clase principal dentro de 
     def presentarse (self):    #metodo
         print(f"Hola soy {self.nombre} y tengo {self.edad} años") 
+
 
 Manuel = Derecho (19,"Manuel")
 Manuel.presentarse()

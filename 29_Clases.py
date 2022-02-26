@@ -1,4 +1,5 @@
-#class Humano(): #Creamos la clase Humano
+
+# clas Humano(): #Creamos la clase Humano ----uwu
 #    def __init__(self, edad, nombre, ocupacion): #Definimos el parámetro edad , nombre y ocupacion
 #        self.edad = edad # Definimos que el atributo edad, sera la edad asignada
 #        self.nombre = nombre # Definimos que el atributo nombre, sera el nombre asig
@@ -10,7 +11,7 @@
 #si esta dentro del constructor es un atributo de instancia, por ello debe de especificarse un valor 
 #a la hora de instanciar el objeto nuevo a partir de esta clase
 
-#class Humano ():
+#class Humano ():     --uwu
 #    def __init__(self, edad, nombre, ocupacion):
 #        self.edad = edad
 #        self.nombre = nombre
